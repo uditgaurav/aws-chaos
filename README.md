@@ -3,6 +3,7 @@
 | Experiment Name                      | Permission Requirement                                   |
 |--------------------------------------|----------------------------------------------------------|
 | ALB AZ Down                          | [Click Here](alb-az-down/policy.json)                    |
+| AZ Blackhole Chaos                   | [Click Here](az-blackhole-chaos/policy.json)             |
 | CLB AZ Down                          | [Click Here](clb-az-down/policy.json)                    |
 | DynamoDB Replication Pause           | [Click Here](dynamodb-replication-pause/policy.json)     |
 | EBS Loss By Id                       | [Click Here](ebs-loss-by-id/policy.json)                 |

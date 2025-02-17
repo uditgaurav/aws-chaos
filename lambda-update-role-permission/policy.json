@@ -1,0 +1,19 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "MergedPolicy",
+            "Effect": "Allow",
+            "Action": [
+                "iam:PassRole",
+                "lambda:GetFunction",
+                "lambda:UpdateFunctionConfiguration",
+                "iam:AttachRolePolicy",
+                "iam:DetachRolePolicy",
+                "iam:ListAttachedRolePolicies",
+                "iam:GetRolePolicy"
+            ],
+            "Resource": "*"
+        }
+    ]
+}

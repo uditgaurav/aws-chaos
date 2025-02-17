@@ -1,4 +1,4 @@
-## AWS Experiment Permission 
+## AWS Experiment Permissions 
 
 | Experiment Name                      | Permission Requirement                                   |
 |--------------------------------------|----------------------------------------------------------|
@@ -6,19 +6,8 @@
 | CLB AZ Down                          | [Click Here](clb-az-down/policy.json)                    |
 | DynamoDB Replication Pause           | [Click Here](dynamodb-replication-pause/policy.json)     |
 | EBS Loss By Id                       | [Click Here](ebs-loss-by-id/policy.json)                 |
+| EC2 In-VM Chaos                      | [Click Here](ec2-in-vm-chaos/policy.json)                 |
 | EBS Loss By Tag                      | [Click Here](ebs-loss-by-tag/policy.json)                |
-| EC2 CPU Hog                          | [Click Here](ec2-cpu-hog/policy.json)                    |
-| EC2 DNS Chaos                        | [Click Here](ec2-dns-chaos/policy.json)                  |
-| EC2 HTTP Latency                     | [Click Here](ec2-http-latency/policy.json)               |
-| EC2 HTTP Modify Body                 | [Click Here](ec2-http-modify-body/policy.json)           |
-| EC2 HTTP Modify Header               | [Click Here](ec2-http-modify-header/policy.json)         |
-| EC2 HTTP Reset Peer                  | [Click Here](ec2-http-reset-peer/policy.json)            |
-| EC2 HTTP Status Code                 | [Click Here](ec2-http-status-code/policy.json)           |
-| EC2 IO Stress                        | [Click Here](ec2-io-stress/policy.json)                  |
-| EC2 Memory Hog                       | [Click Here](ec2-memory-hog/policy.json)                 |
-| EC2 Network Latency                  | [Click Here](ec2-network-latency/policy.json)            |
-| EC2 Network Loss                     | [Click Here](ec2-network-loss/policy.json)               |
-| EC2 Process Kill                     | [Click Here](ec2-process-kill/policy.json)               |
 | EC2 Stop By Id                       | [Click Here](ec2-stop-by-id/policy.json)                 |
 | EC2 Stop By Tag                      | [Click Here](ec2-stop-by-tag/policy.json)                |
 | ECS Agent Stop                       | [Click Here](ecs-agent-stop/policy.json)                 |
@@ -43,6 +32,9 @@
 | ECS Update Container Timeout         | [Click Here](ecs-update-container-timeout/policy.json)   |
 | ECS Update Task Role                 | [Click Here](ecs-update-task-role/policy.json)           |
 | FIS Generic Chaos                    | [Click Here](fis-generic-chaos/policy.json)              |
+| Lambda Inject Latency                | [Click Here](lambda-inject-latency/policy.json)          |
+| Lambda Modify Response Body          | [Click Here](lambda-modify-response-body/policy.json)    |
+| Lambda Inject Status Code            | [Click Here](lambda-inject-status-code/policy.json)      |
 | Lambda Delete Event Source Mapping   | [Click Here](lambda-delete-event-source-mapping/policy.json)|
 | Lambda Delete Function Concurrency   | [Click Here](lambda-delete-function-concurrency/policy.json)|
 | Lambda Function Layer Detach         | [Click Here](lambda-function-layer-detach/policy.json)   |
@@ -56,8 +48,3 @@
 | Resource Access Restrict             | [Click Here](resource-access-restrict/policy.json)       |
 | SSM Chaos By Id                      | [Click Here](ssm-chaos-by-id/policy.json)                |
 | SSM Chaos By Tag                     | [Click Here](ssm-chaos-by-tag/policy.json)               |
-| Windows EC2 Blackhole Chaos          | [Click Here](windows-ec2-blackhole-chaos/policy.json)    |
-| Windows EC2 CPU Hog                  | [Click Here](windows-ec2-cpu-hog/policy.json)            |
-| Windows EC2 Memory Hog               | [Click Here](windows-ec2-memory-hog/policy.json)         |
-| Windows EC2 Network Latency          | [Click Here](windows-ec2-network-latency/policy.json)    |
-| Windows EC2 Network Loss             | [Click Here](windows-ec2-network-loss/policy.json)       |
